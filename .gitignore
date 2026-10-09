@@ -1,0 +1,23 @@
+# Сире відео й кадри не комітимо: за межі пристрою виходять
+# лише знеособлені метадані (пропозиція, розділ 3).
+data/
+*.mp4
+*.mov
+*.mkv
+*.jpg
+*.jpeg
+*.png
+
+# Ваги моделей
+*.pt
+*.onnx
+
+# Вихід ultralytics
+runs/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.ipynb_checkpoints/
+.DS_Store
